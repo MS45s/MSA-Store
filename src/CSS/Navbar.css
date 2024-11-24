@@ -1,0 +1,14 @@
+#navbar-msa {
+    display: flex;
+    flex-wrap: nowrap;
+}
+@media only screen and (max-width: 1024px) {
+    #navbar-msa {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #log_reg_cart_msa {
+        padding-block: 10px;
+        margin-top: 5px;
+    }
+}
